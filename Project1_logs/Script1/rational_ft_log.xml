@@ -1,18 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestLog>
 	<Event dpIter="0">
-		<Event Timestamp="17-Nov-2021 12:31:09.847 PM" Type="Script Start" Headline="Script start [Script1]" Result="INFORMATION">
+		<Event Timestamp="17-Nov-2021 02:39:36.815 PM" Type="Script Start" Headline="Script start [Script1]" Result="INFORMATION">
+			<Property line_number="1"/>
+			<Property script_iter_count="0"/>
 			<Property script_name="Script1"/>
 			<Property script_id="Script1.java"/>
 		</Event>
-		<Event Timestamp="17-Nov-2021 12:31:09.847 PM" Type="General" Headline="License Check Error" Result="FAIL">
+		<Event Timestamp="17-Nov-2021 02:39:36.878 PM" Type="Application Start" Headline="Start application [ClassicsJavaA]" Result="INFORMATION">
+			<Property name="ClassicsJavaA"/>
+			<Property line_number="33"/>
 			<Property script_name="Script1"/>
 			<Property script_id="Script1.java"/>
-			<Property exception_name="class com.rational.test.ft.RationalTestException"/>
-			<Property exception_message="Could not obtain license to perform the operation"/>
-			<Property exception_stack="[Ljava.lang.StackTraceElement;@17dab90d"/>
+			<Property startapp_type="JAVA"/>
+			<Property startapp_executable="ClassicsJavaA.jar"/>
+			<Property startapp_working_directory="C:\Program Files\IBM\SDP\FunctionalTester\FTSamples"/>
+			<Property startapp_arguments=" "/>
 		</Event>
-		<Event Timestamp="17-Nov-2021 12:31:09.847 PM" Type="Script End" Headline="Script end [Script1]" Result="FAIL">
+		<Event Timestamp="17-Nov-2021 02:39:57.585 PM" Type="General" Headline="Script1.testMain had an unhandled exception." Result="FAIL">
+			<Property exception_context="click() called on GuiSubitemTestObject(Name: tree2, Map: tree2)."/>
+			<Property exception_name="com.rational.test.ft.WindowActivateFailedException"/>
+			<Property exception_message="Window is not visible"/>
+			<Property script_name="Script1"/>
+			<Property script_id="Script1.java"/>
+			<Property line_number="36"/>
+			<Property exception_stack="	at com.rational.test.ft.domain.java.awt.TopLevelWindowProxy.activate(TopLevelWindowProxy.java:488)
+	at com.rational.test.ft.domain.java.JavaGuiProxy.activateTopWindow(JavaGuiProxy.java:794)
+	at com.rational.test.ft.domain.java.JavaGuiProxy.activateTopWindow(JavaGuiProxy.java:802)
+	at com.rational.test.ft.domain.java.JavaGuiProxy.activateTopWindow(JavaGuiProxy.java:802)
+	at com.rational.test.ft.domain.java.JavaGuiProxy.activateTopWindow(JavaGuiProxy.java:802)
+	at com.rational.test.ft.domain.java.JavaGuiProxy.activateTopWindow(JavaGuiProxy.java:802)
+	at com.rational.test.ft.domain.java.JavaGuiProxy.activateTopWindow(JavaGuiProxy.java:802)
+	at com.rational.test.ft.domain.java.JavaGuiProxy.activateTopWindow(JavaGuiProxy.java:802)
+	at com.rational.test.ft.domain.java.jfc.JfcGraphicalSubitemProxy.click(JfcGraphicalSubitemProxy.java:165)
+	at com.rational.test.ft.domain.java.jfc.JfcGraphicalSubitemProxy.click(JfcGraphicalSubitemProxy.java:156)
+	at com.rational.test.ft.domain.java.jfc.JScrollPaneProxy.click(JScrollPaneProxy.java:423)
+	------------------------------
+	at com.rational.test.ft.object.interfaces.ClientTestObject.invokeProxy(ClientTestObject.java:479)
+	at com.rational.test.ft.object.interfaces.StatelessGuiSubitemTestObject.click(StatelessGuiSubitemTestObject.java:166)
+	at Script1.testMain(Script1.java:36)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+"/>
+			<Property screen_snapshot="rational_ft_screensnapshot.jpg" image_width="1024" image_height="768"/>
+		</Event>
+		<Event Timestamp="17-Nov-2021 02:39:57.585 PM" Type="Script End" Headline="Script end [Script1]" Result="FAIL">
 			<Property script_name="Script1"/>
 			<Property script_id="Script1.java"/>
 		</Event>
