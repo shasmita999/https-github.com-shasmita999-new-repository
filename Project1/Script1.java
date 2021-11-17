@@ -12,6 +12,7 @@ import com.rational.test.ft.script.*;
 import com.rational.test.ft.value.*;
 import com.rational.test.ft.vp.*;
 import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;
+
 /**
  * Description   : Functional Test Script
  * @author admin
@@ -27,7 +28,7 @@ public class Script1 extends Script1Helper
 	 * @since  2021/11/16
 	 * @author admin
 	 */
-	public void testMain(Object[] args) 
+	public void testMain(Object[]args) 
 	{
 		startApp("ClassicsJavaA");
 		

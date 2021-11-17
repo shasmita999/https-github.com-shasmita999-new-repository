@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestLog>
+	<Event dpIter="0">
+		<Event Timestamp="17-Nov-2021 10:31:20.908 AM" Type="Script Start" Headline="Script start [Script1]" Result="INFORMATION">
+			<Property line_number="1"/>
+			<Property script_iter_count="0"/>
+			<Property script_name="Script1"/>
+			<Property script_id="Script1.java"/>
+		</Event>
+		<Event Timestamp="17-Nov-2021 10:31:20.939 AM" Type="Application Start" Headline="Start application [ClassicsJavaA]" Result="INFORMATION">
+			<Property name="ClassicsJavaA"/>
+			<Property line_number="32"/>
+			<Property script_name="Script1"/>
+			<Property script_id="Script1.java"/>
+			<Property startapp_type="JAVA"/>
+			<Property startapp_executable="ClassicsJavaA.jar"/>
+			<Property startapp_working_directory="C:\Program Files\IBM\SDP\FunctionalTester\FTSamples"/>
+			<Property startapp_arguments=" "/>
+		</Event>
+		<Event Timestamp="17-Nov-2021 10:31:24.551 AM" Type="Script End" Headline="Script end [Script1]" Result="PASS">
+			<Property script_name="Script1"/>
+			<Property script_id="Script1.java"/>
+		</Event>
+	</Event>
+</TestLog>

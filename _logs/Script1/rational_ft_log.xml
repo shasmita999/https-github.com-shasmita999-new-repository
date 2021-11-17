@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestLog>
+	<Event dpIter="0">
+		<Event Timestamp="17-Nov-2021 10:21:53.142 AM" Type="Script Start" Headline="Script start [Script1]" Result="INFORMATION">
+			<Property script_name="Script1"/>
+			<Property script_id="Script1.java"/>
+		</Event>
+		<Event Timestamp="17-Nov-2021 10:21:53.142 AM" Type="General" Headline="CRFCN0379E: Load script class failed [Script1] [class java.lang.ClassNotFoundException]" Result="FAIL">
+			<Property script_name="Script1"/>
+			<Property script_id="Script1.java"/>
+			<Property exception_name="class java.lang.ClassNotFoundException"/>
+			<Property exception_message="Script1"/>
+			<Property exception_stack="[Ljava.lang.StackTraceElement;@9e2165e4"/>
+		</Event>
+		<Event Timestamp="17-Nov-2021 10:21:53.142 AM" Type="Script End" Headline="Script end [Script1]" Result="FAIL">
+			<Property script_name="Script1"/>
+			<Property script_id="Script1.java"/>
+		</Event>
+	</Event>
+</TestLog>
