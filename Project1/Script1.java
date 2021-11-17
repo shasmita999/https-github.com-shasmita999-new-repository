@@ -45,7 +45,7 @@ public class Script1 extends Script1Helper
 		cardNumberIncludeTheSpaces().click(atPoint(25,18));
 		placeAnOrder().inputChars("111111111111111");
 		expirationDate().click(atPoint(21,10));
-		placeAnOrder().inputChars("04/02");
+		placeAnOrder().inputChars("04/03");
 		placeOrder2().click();
 		
 		// 
