@@ -38,7 +38,7 @@ public class Script1 extends Script1Helper
 		
 		// Frame: Member Logon
 		password().click(atPoint(21,15));
-		memberLogon().inputChars("123456");
+		memberLogon().inputChars("12");
 		ok().click();
 		
 		// Frame: Place an Order
