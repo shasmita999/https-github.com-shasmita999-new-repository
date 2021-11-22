@@ -31,7 +31,7 @@ public class Script2 extends Script2Helper
 	{
 		startApp("application");
 		
-		// HTML Browser
+		// HTML Browsers
 		browser_htmlBrowser(document_google(),DEFAULT_FLAGS).close();
 		
 		
