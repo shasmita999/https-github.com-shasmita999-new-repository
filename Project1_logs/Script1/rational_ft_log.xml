@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestLog>
 	<Event dpIter="0">
-		<Event Timestamp="17-Nov-2021 02:39:36.815 PM" Type="Script Start" Headline="Script start [Script1]" Result="INFORMATION">
+		<Event Timestamp="17-Nov-2021 02:54:24.147 PM" Type="Script Start" Headline="Script start [Script1]" Result="INFORMATION">
 			<Property line_number="1"/>
 			<Property script_iter_count="0"/>
 			<Property script_name="Script1"/>
 			<Property script_id="Script1.java"/>
 		</Event>
-		<Event Timestamp="17-Nov-2021 02:39:36.878 PM" Type="Application Start" Headline="Start application [ClassicsJavaA]" Result="INFORMATION">
+		<Event Timestamp="17-Nov-2021 02:54:24.241 PM" Type="Application Start" Headline="Start application [ClassicsJavaA]" Result="INFORMATION">
 			<Property name="ClassicsJavaA"/>
 			<Property line_number="33"/>
 			<Property script_name="Script1"/>
@@ -17,7 +17,7 @@
 			<Property startapp_working_directory="C:\Program Files\IBM\SDP\FunctionalTester\FTSamples"/>
 			<Property startapp_arguments=" "/>
 		</Event>
-		<Event Timestamp="17-Nov-2021 02:39:57.585 PM" Type="General" Headline="Script1.testMain had an unhandled exception." Result="FAIL">
+		<Event Timestamp="17-Nov-2021 02:54:44.896 PM" Type="General" Headline="Script1.testMain had an unhandled exception." Result="FAIL">
 			<Property exception_context="click() called on GuiSubitemTestObject(Name: tree2, Map: tree2)."/>
 			<Property exception_name="com.rational.test.ft.WindowActivateFailedException"/>
 			<Property exception_message="Window is not visible"/>
@@ -53,7 +53,7 @@
 "/>
 			<Property screen_snapshot="rational_ft_screensnapshot.jpg" image_width="1024" image_height="768"/>
 		</Event>
-		<Event Timestamp="17-Nov-2021 02:39:57.585 PM" Type="Script End" Headline="Script end [Script1]" Result="FAIL">
+		<Event Timestamp="17-Nov-2021 02:54:44.896 PM" Type="Script End" Headline="Script end [Script1]" Result="FAIL">
 			<Property script_name="Script1"/>
 			<Property script_id="Script1.java"/>
 		</Event>
