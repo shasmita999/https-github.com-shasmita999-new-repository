@@ -42,7 +42,7 @@ public class Script1 extends Script1Helper
 		memberLogon().inputChars("123");
 		ok().click();
 		
-		// Frame: Place an Order
+		// Frame: Place an Order for Poc
 		cardNumberIncludeTheSpaces().click(atPoint(25,18));
 		placeAnOrder().inputChars("111111111111111");
 		expirationDate().click(atPoint(21,10));
