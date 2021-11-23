@@ -49,7 +49,7 @@ public class Script1 extends Script1Helper
 		placeAnOrder().inputChars("04/03");
 		placeOrder2().click();
 		
-		// run
+		// run poc
 		ok2().click();
 		
 		// Frame: ClassicsCD
